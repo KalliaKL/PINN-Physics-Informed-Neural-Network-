@@ -1,4 +1,3 @@
-"""
 Physics-Informed Neural Network: Simple Harmonic Oscillator
 ============================================================
 The physics:
@@ -27,5 +26,4 @@ Run with:
 I built a neural network that learns to satisfy a differential equation without
 being given the solution. The physics law, d²x/dt² + ω²x = 0, is encoded
 directly into the loss function. I used Tanh instead of ReLU
-because I need a smooth second derivative to compute the acceleration term.
-"""
+because I need a smooth second derivative to compute the acceleration terms
